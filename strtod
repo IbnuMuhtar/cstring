@@ -3,9 +3,13 @@
 using namespace std;
 
 int main() {
-  char str[] = "3.14";
+  char str[] = "3.14rr";
   char *ptr;
   double num = strtod(str, &ptr);
   cout << "Nilai yang dihasilkan: " << num << endl;
+  cout<<ptr;
   return 0;
 }
+
+output 341
+rr
