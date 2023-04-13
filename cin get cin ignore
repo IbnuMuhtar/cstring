@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   char c;
+   cout << "Masukkan sebuah karakter: ";
+   cin.get(c);
+   cout << "Karakter yang dimasukkan: " << c << endl;
+
+   cin.ignore(100, '\n');
+   cout << "Masukkan sebuah kata: ";
+   string kata;
+   cin >> kata;
+   cout << "Kata yang dimasukkan: " << kata << endl;
+   return 0;
+}
+
+
+cin.get menyimpan huruf pertama
+cin igbore kata pertama
